@@ -54,23 +54,6 @@ Digital marketing assets for **ClawChain** and **EvoClaw**, generated with ZImag
 
 ---
 
-## 🎭 Demos
-
-Showcase images demonstrating ZImage Turbo capabilities — various styles, prompts, and use cases.
-
-| Asset | Description |
-|-------|-------------|
-| [sydney-diorama.png](demos/sydney-diorama.png) | Isometric miniature Sydney diorama with live weather (partly cloudy, 23°C) |
-| [office-worker-diorama.png](demos/office-worker-diorama.png) | LinkedIn-themed office worker diorama, portrait |
-| [marble-sculpture.png](demos/marble-sculpture.png) | Photorealistic marble sculpture, artistic |
-| [milka-claw-machine.png](demos/milka-claw-machine.png) | Milka-branded premium claw machine, product render |
-| [blog-realistic-portrait.png](demos/blog-realistic-portrait.png) | Photorealistic portrait — natural light style (Chinese prompt) |
-| [blog-japanese-sweet.png](demos/blog-japanese-sweet.png) | Sweet Japanese aesthetic — pastel, magazine cover |
-| [blog-korean-editorial.png](demos/blog-korean-editorial.png) | Korean high-fashion editorial — Vogue-style |
-| [blog-special.png](demos/blog-special.png) | Artistic sensual portrait — cinematic fashion |
-
----
-
 ## ⚙️ Generation Pipeline
 
 All assets generated with **ZImage Turbo** via ComfyUI API on our GPU server:
@@ -81,30 +64,20 @@ All assets generated with **ZImage Turbo** via ComfyUI API on our GPU server:
 - **Generation time:** ~5–15 seconds per image (models warm in VRAM)
 - **GPU:** NVIDIA RTX 3090 (24 GB VRAM)
 
-### Workflow Node Order
-```
-UNETLoader → CLIPLoader → VAELoader
-→ TextEncodeZImageOmni (positive + negative)
-→ EmptyLatentImage → ModelSamplingFlux → KSampler
-→ VAEDecode → SaveImage
-```
-
 ---
 
 ## 📁 Structure
 
 ```
 marketing-assets/
-├── clawchain/          # ClawChain brand assets
+├── clawchain/
 │   ├── hero-banner.png     (1280×720)
 │   ├── ecosystem.png       (1280×720)
 │   └── social-card.png     (768×1024)
-├── evoclaw/            # EvoClaw brand assets
-│   ├── hero-banner.png     (1280×720)
-│   ├── pipeline.png        (1280×720)
-│   └── social-card.png     (768×1024)
-└── demos/              # Capability demos
-    └── *.png
+└── evoclaw/
+    ├── hero-banner.png     (1280×720)
+    ├── pipeline.png        (1280×720)
+    └── social-card.png     (768×1024)
 ```
 
 ---
