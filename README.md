@@ -19,11 +19,11 @@ Digital marketing assets for **ClawChain** and **EvoClaw**, generated with ZImag
 
 <table>
 <tr>
-<td><img src="clawchain/hero-banner.png" width="400"/><br/><sub>Hero Banner</sub></td>
-<td><img src="clawchain/ecosystem.png" width="400"/><br/><sub>Ecosystem</sub></td>
+<td><img src="clawchain/hero-banner.png" alt="ClawChain hero banner" width="400"/><br/><sub>Hero Banner</sub></td>
+<td><img src="clawchain/ecosystem.png" alt="ClawChain ecosystem diagram" width="400"/><br/><sub>Ecosystem</sub></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="clawchain/social-card.png" width="300"/><br/><sub>Social Card</sub></td>
+<td colspan="2" align="center"><img src="clawchain/social-card.png" alt="ClawChain social card" width="300"/><br/><sub>Social Card</sub></td>
 </tr>
 </table>
 
@@ -44,11 +44,11 @@ Digital marketing assets for **ClawChain** and **EvoClaw**, generated with ZImag
 
 <table>
 <tr>
-<td><img src="evoclaw/hero-banner.png" width="400"/><br/><sub>Hero Banner</sub></td>
-<td><img src="evoclaw/pipeline.png" width="400"/><br/><sub>Pipeline</sub></td>
+<td><img src="evoclaw/hero-banner.png" alt="EvoClaw hero banner" width="400"/><br/><sub>Hero Banner</sub></td>
+<td><img src="evoclaw/pipeline.png" alt="EvoClaw PBR pipeline diagram" width="400"/><br/><sub>Pipeline</sub></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="evoclaw/social-card.png" width="300"/><br/><sub>Social Card</sub></td>
+<td colspan="2" align="center"><img src="evoclaw/social-card.png" alt="EvoClaw social card" width="300"/><br/><sub>Social Card</sub></td>
 </tr>
 </table>
 
